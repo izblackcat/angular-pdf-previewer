@@ -38,6 +38,8 @@ import { PdfViewerComponent } from 'ngx-pdf-previewer';
 <lib-pdf-viewer src="assets/law.pdf" [zoom]="1"></lib-pdf-viewer>
 ```
 The `src` specifies the path to your Pdf file with the `zoom` level. 
-> Note that the `zoom` is a number and not a string.
+> Note that `zoom` is a number and not a string.
+The default value for zoom is `1.5`
+
 
 
