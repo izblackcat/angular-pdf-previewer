@@ -14,7 +14,7 @@ export class PdfPreviewerComponent implements OnInit {
 
   currentPage = 1;
   totalPages = 1;
-  private pdfDoc: any;
+pdfDoc: any;
 
   async ngOnInit(): Promise<void> {
     if (!this.src) {
